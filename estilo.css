@@ -1,0 +1,68 @@
+
+body {
+    background-color: #d9f0ff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #6aaddd;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #002b49;
+}
+
+.cartao {
+    background-color: #d9f0ff;
+    border: 2px solid #71bef5;
+    border-radius: 10px;
+    padding: 25px;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.foto-destaque {
+    width: 250px;
+    border: 3px solid #51a6e2;
+    border-radius: 10px;
+}
+
+label, legend {
+    color: #002b49;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"] {
+    color: #002b49;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    border: 2px solid #489cd8;
+    padding: 8px;
+    margin: 5px;
+}
+fieldset {
+    border: 2px solid #2e89ca;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+button {
+    background-color: #438fc5;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input:focus,
+button:focus {
+    outline: 4px solid #928881;
+    outline-offset: 3px;
+}
+
+footer {
+    color: #3f8fc9;
+    padding: 15px;
+}
